@@ -1,0 +1,1 @@
+Le répertoire solution permet de contenir les affectations d'une colonie si l'utilisateur décide d'effectuer une affectation automatique et décide de laisser le logiciel enregistrer sa solution pour lui dans un fichier fraîchement crée.
