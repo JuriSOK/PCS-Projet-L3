@@ -115,7 +115,7 @@ public class MenuAutomatique extends Menu {
      * @return la colonie mise à jour après la résolution.
      */
     private ColonieSpatiale menuResolutionAuto(ColonieSpatiale colonie) {
-        colonie.affectionRessourcesOptimise(5);
+        colonie.affectionRessourcesOptimise(colonie.getColonie().values().size()*2);
         System.out.println("Voici l'affection automatique proposée :");
         colonie.afficherAffectation();
         System.out.println("Nombre de colons jaloux dans cette configuration : " + colonie.calculerJaloux());

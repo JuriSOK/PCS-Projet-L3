@@ -29,7 +29,7 @@ public class Main {
 			
 		}
 		else {  
-			Menu menu = new MenuAutomatique(args[0]); //Users/arnaudsok/Downloads/equipage1
+			Menu menu = new MenuAutomatique(args[0]); 
 			menu.demarrage();
 			
 		}
